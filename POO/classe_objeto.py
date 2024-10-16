@@ -23,3 +23,5 @@ for i in range(len(vendedores)):
     vendedor = Vendedor(vendedores[i]["nome"])
     vendedor.vendeu(vendedores[i]["vendas"])
     vendedor.bateu_meta(vendedores[i]["meta"])
+
+
